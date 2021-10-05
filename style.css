@@ -1,10 +1,27 @@
 .hero{
-    display: flex;
-    align-items: center;
     background-color: #1f2937;
 }
 
-img{
-   
-    width: 10px;
+.logo {
+    display: flex ;
+    height:75px;
+    width: 300px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.opener{
+    display: flex;
+    justify-content: center;
 }
