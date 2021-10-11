@@ -3,7 +3,7 @@
 }
 
 .logo {
-    display: flex ;
+    display: flex;
     height:75px;
     width: 300px;
 }
@@ -58,4 +58,27 @@
 .opener-image{
     width:400px;
     height: 200px;
+}
+
+.info-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.info{
+    display: flex;
+    gap: 30px;
+}
+
+.info-pic{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.info-text{
+    
 }
