@@ -113,10 +113,23 @@ body{
 }
 
 .quote{
-    background-image: url(images/tekashi69.jpeg);
     display: flex;
-    background-size: 900px 500px;
-    height: 500px;
-    width: 900px;
     flex-direction: column;
+    background-color: grey;
 }
+
+.call-2-action{
+    padding: 16px;
+    display: flex;
+    border-radius: 13px;
+    background-color: blue;
+    gap: 15px;
+}
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
