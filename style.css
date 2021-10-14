@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+}
+
 .hero{
     background-color: #1f2937;
 }
@@ -62,6 +66,7 @@
 
 .body{
     justify-content: center;
+    align-items: center;
 }
 
 .info-header{
@@ -75,17 +80,43 @@
 .info-box{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap:12px;
 }
 
 .info{
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
+    max-width: 300px;
 }
+
 
 .info-pic{
-    display: flex;
-    width: 250px;
-    height: 250px;
+    width:200px;
+    height: 200px;
+    border-radius: 7px;
+    border: solid;
 }
 
+.info-text{
+    display: flex;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.actual-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.quote{
+    background-image: url(images/tekashi69.jpeg);
+    display: flex;
+    background-size: 900px 500px;
+    height: 500px;
+    width: 900px;
+    flex-direction: column;
+}
